@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "Extension project",
+    "version": "1.0",
+  
+    "description": "Under process.",
+  
+    "icons": {
+      
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/watch/*"],
+        "js": ["youtube.js"]
+      }
+    ]
+  
+  }
+  
